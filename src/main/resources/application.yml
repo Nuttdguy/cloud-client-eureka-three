@@ -1,0 +1,11 @@
+# .yml application configuration file
+---
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: https://localhost:8010
+      
+words: a, the
+
+server:
+  port: ${PORT:${SERVER_PORT:0}}
